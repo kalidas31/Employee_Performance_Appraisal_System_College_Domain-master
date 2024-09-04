@@ -1,0 +1,57 @@
+Table name: appraisal 
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ APPRAISALID                               NOT NULL NUMBER(38)
+ USERID                                             NUMBER(38)
+ SYLLABUSCOVERED                                    NUMBER(38)
+ UNITSCOMPLETED                                     NUMBER(38)
+ PERIODSCONDUCTED                                   NUMBER(38)
+ UNIVERSITYPERIODS                                  NUMBER(38)
+ PASSPERCENTAGE                                     NUMBER(38)
+ FAILPERCENTAGE                                     NUMBER(38)
+ EXTRACOACHING                                      VARCHAR2(255)
+ INNOVATIVEMETHODS                                  VARCHAR2(255)
+ LABSESSIONS                                        NUMBER(38)
+ EXPERIMENTSCOMPLETED                               NUMBER(38)
+ SPONSORSHIPS                                       VARCHAR2(255)
+ SEMINARS                                           VARCHAR2(255)
+ PAPERS                                             VARCHAR2(255)
+ OTHERASSIGNMENTS                                   VARCHAR2(255)
+ APPRECIATION                                       VARCHAR2(255)
+ DISCIPLINARYACTIONS                                VARCHAR2(255)
+ OTHERACTIVITIES                                    VARCHAR2(255)
+ LEAVEPERIOD                                        VARCHAR2(255)
+ LEAVEDATE                                          VARCHAR2(255)
+ NOOFDAYS                                           NUMBER(38)
+ PROFICIENCY                                        VARCHAR2(255)
+ HODREMARKS                                         VARCHAR2(255)
+ PRINCIPALREMARKS                                   VARCHAR2(255)
+ STATUS                                             VARCHAR2(50)
+ DEPARTMENT                                         VARCHAR2(50)
+ ACADEMICYEAR                                       VARCHAR2(50)
+
+==================================================================================
+
+Table name: appraisalforms
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPARTMENT                                         VARCHAR2(20)
+ ACADEMICYEAR                                       VARCHAR2(20)
+ RELEASED                                           VARCHAR2(20)
+ DEPTAY                                    NOT NULL VARCHAR2(20)
+
+====================================================================================
+
+Table name: users
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ USERID                                    NOT NULL NUMBER(38)
+ USERNAME                                  NOT NULL VARCHAR2(255)
+ PASSWORD                                  NOT NULL VARCHAR2(255)
+ ROLE                                      NOT NULL VARCHAR2(50)
+ DEPARTMENT                                         VARCHAR2(255)
+
+=====================================================================================

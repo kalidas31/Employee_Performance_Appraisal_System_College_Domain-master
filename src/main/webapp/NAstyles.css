@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, h2, form, label, input, br 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body font and background color */
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the form container */
+.new-Appraisal 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style the header */
+.new-Appraisal h2 
+{
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Style form labels */
+.new-Appraisal label 
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style form inputs */
+.new-Appraisal input[type="text"], 
+.new-Appraisal input[type="number"], 
+.new-Appraisal input[type="date"], 
+.new-Appraisal input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Style submit button */
+.new-Appraisal input[type="submit"] 
+{
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* Submit button hover effect */
+.new-Appraisal input[type="submit"]:hover 
+{
+    background-color: #0056b3;
+}
+
+

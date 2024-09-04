@@ -1,0 +1,161 @@
+
+body, h2, form, div ,table,th,td,a
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-container 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+/* Style the header */
+.login-container h2 
+{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the form input groups */
+.input-group 
+{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Style the labels */
+.input-group label 
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Style the input fields */
+.input-group input 
+{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button 
+{
+	display: inline-block;
+    width: 14%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left:650px;
+}
+
+
+
+/* Style the dashboard container */
+.dashboard-container 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Style the header */
+.dashboard-container h2 
+{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the table */
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style the table header */
+table thead 
+{
+    background-color: #007bff;
+    color: white;
+}
+
+table thead th 
+{
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Style the table rows and cells */
+table tbody tr 
+{
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) 
+{
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover 
+{
+    background-color: #f1f1f1;
+}
+
+table tbody td 
+{
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Style the links */
+table tbody td a 
+{
+    color: #007bff;
+    text-decoration: none;
+}
+
+table tbody td a:hover 
+{
+    text-decoration: underline;
+}
+
+.a1
+{
+	color:white;
+	text-decoration: none;
+}
